@@ -1,0 +1,309 @@
+
+/************************ Start of Animations Css *******************/
+
+@keyframes typing {
+    0%{
+        content: " |";
+    }
+    1%{
+        content: "L |";
+    }
+    2%{
+        content: "La |";
+    }
+    3%{
+        content: "Lar |";
+    }
+    4%{
+        content: "Larr |";
+    }
+    5%{
+        content: "Larry  |";
+    }
+    6%{
+        content: "Larry D |";
+    }
+    7%{
+        content: "Larry Da |";
+    }
+    8%{
+        content: "Larry Dan |";
+    }
+    9%{
+        content: "Larry Dani |";
+    }
+    10%{
+        content: "Larry Danie |";
+    }
+    11%{
+        content: "Larry Daniel |";
+    }
+    12%{
+        content: "Larry Daniels |";
+    }
+    13%{
+        content: "Larry Daniels |";
+    }
+    14%{
+        content: "Larry Daniels |";
+    }
+    15%{
+        content: "Larry Daniels |";
+    }
+    16%{
+        content: "Larry Daniels |";
+    }
+    17%{
+        content: "Larry Daniels |";
+    }
+    18%{
+        content: "Larry Daniels |";
+    }
+    19%{
+        content: "Larry Daniels |";
+    }
+    20%{
+        content: "Larry Daniel |";
+    }
+    21%{
+        content: "Larry Danie |";
+    }
+    22%{
+        content: "Larry Dani |";
+    }
+    23%{
+        content: "Larry Dan |";
+    }
+    24%{
+        content: "Larry Da |";
+    }
+    25%{
+        content: "Larry D |";
+    }
+    26%{
+        content: "Larry  |";
+    }
+    27%{
+        content: "Larry |";
+    }
+    28%{
+        content: "Larr |";
+    }
+    29%{
+        content: "Lar |";
+    }
+    30%{
+        content: "La |";
+    }
+    31%{
+        content: "L |";
+    }
+    32%{
+        content: " |";
+    }
+    33%{
+        content: " |";
+    }
+    34%{
+        content: " |";
+    }
+    35%{
+        content: " |";
+    }
+    36%{
+        content: " |";
+    }
+    37%{
+        content: "D |";
+    }
+    38%{
+        content: "De |";
+    }
+    39%{
+        content: "Dev |";
+    }
+    40%{
+        content: "Deve |";
+    }
+    41%{
+        content: "Devel |";
+    }
+    42%{
+        content: "Develo |";
+    }
+    43%{
+        content: "Develop |";
+    }
+    44%{
+        content: "Develope |";
+    }
+    45%{
+        content: "Developer |";
+    }
+    46%{
+        content: "Developer |";
+    }
+    47%{
+        content: "Developer |";
+    }
+    48%{
+        content: "Developer |";
+    }
+    49%{
+        content: "Developer |";
+    }
+    50%{
+        content: "Developer |";
+    }
+    51%{
+        content: "Developer |";
+    }
+    52%{
+        content: "Developer |";
+    }
+    53%{
+        content: "Develope |";
+    }
+    54%{
+        content: "Develop |";
+    }
+    55%{
+        content: "Develo |";
+    }
+    56%{
+        content: "Devel |";
+    }
+    57%{
+        content: "Deve |";
+    }
+    58%{
+        content: "Dev |";
+    }
+    59%{
+        content: "De |";
+    }
+    60%{
+        content: "D |";
+    }
+    61%{
+        content: " |";
+    }
+    62%{
+        content: " |";
+    }
+    63%{
+        content: " |";
+    }
+    64%{
+        content: " |";
+    }
+    65%{
+        content: " |";
+    }
+    66%{
+        content: " |";
+    }
+    67%{
+        content: "D |";
+    }
+    68%{
+        content: "De |";
+    }
+    69%{
+        content: "Des |";
+    }
+    70%{
+        content: "Desi |";
+    }
+    71%{
+        content: "Desig |";
+    }
+    72%{
+        content: "Design |";
+    }
+    73%{
+        content: "Designe |";
+    }
+    74%{
+        content: "Designer |";
+    }
+    75%{
+        content: "Designer |";
+    }
+    76%{
+        content: "Designer |";
+    }
+    77%{
+        content: "Designer |";
+    }
+    78%{
+        content: "Designer |";
+    }
+    79%{
+        content: "Designer |";
+    }
+    80%{
+        content: "Designer |";
+    }
+    81%{
+        content: "Designer |";
+    }
+    82%{
+        content: "Designe |";
+    }
+    83%{
+        content: "Design |";
+    }
+    84%{
+        content: "Desig |";
+    }
+    85%{
+        content: "Desi |";
+    }
+    86%{
+        content: "Des |";
+    }
+    87%{
+        content: "De |";
+    }
+    88%{
+        content: "D |";
+    }
+    89%{
+        content: " |";
+    }
+    90%{
+        content: " |";
+    }
+    91%{
+        content: " |";
+    }
+    92%{
+        content: " |";
+    }
+    93%{
+        content: " |";
+    }
+    94%{
+        content: " |";
+    }
+    95%{
+        content: " |";
+    }
+    96%{
+        content: " |";
+    }
+    97%{
+        content: " |";
+    }
+    98%{
+        content: " |";
+    }
+    99%{
+        content: " |";
+    }
+    100%{
+        content: " |";
+    }
+}
+/************************ End of Animations Css *******************/

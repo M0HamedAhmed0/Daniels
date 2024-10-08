@@ -1,0 +1,632 @@
+:root {
+    --main-font-family: "Montserrat", sans-serif;
+    --second-font-family: "Poppins", sans-serif;
+    --text-header-color: rgb(52, 52, 52);
+    --text-color: rgb(116, 129, 130);
+}
+
+body {
+    font-family: var(--second-font-family);
+}
+
+span,
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--main-font-family);
+}
+
+/************************ Start of Navbar sections *******************/
+nav {
+    background: rgb(106 106 106 / 50%);
+}
+
+.navbar-brand {
+    font-size: 18px;
+    font-family: var(--main-font-family);
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.nav-item a {
+    font-size: .875rem;
+    font-weight: 400;
+}
+
+nav .container {
+    padding-left: 0;
+}
+
+
+.nav-item a {
+    position: relative;
+
+}
+
+.nav-item a::before {
+    content: "";
+    position: absolute;
+    bottom: 8px;
+    width: 0%;
+    height: 2px;
+    background-color: white;
+    transition: all 0.4s ease-in-out;
+}
+
+.nav-item .active::before {
+    width: 70%;
+}
+
+.navbar-toggler {
+    border: 0;
+}
+
+.navbar-toggler i {
+    color: white;
+}
+
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 0;
+}
+
+
+/************************ End of Navbar sections *******************/
+
+
+
+/************************ Start of Header sections *******************/
+
+header {
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+header .layer {
+    background-color: rgba(0, 0, 0, 0.65);
+    width: 100%;
+    height: 100%;
+}
+
+.header-content h5 {
+    font-size: 3.125rem;
+    font-weight: 800;
+    color: white;
+}
+
+.header-content h1 {
+    color: white;
+    font-size: 3.75rem;
+    font-weight: 200;
+}
+
+.header-content h1::after {
+    font-weight: 400;
+    content: "";
+    animation: typing 8s infinite ease-in-out;
+}
+
+.header-content .social-icons span {
+    font-size: 14px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.3);
+    line-height: 2.1875rem;
+}
+
+/************************ End of Header sections *******************/
+
+
+
+
+/************************ Start of About sections *******************/
+#about .inner {
+    position: relative;
+}
+
+#about .inner::after {
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    left: 0;
+    bottom: -30px;
+    background-image: url(../images/dots.png);
+    background-repeat: repeat;
+    z-index: -1;
+}
+
+#about .inner img {
+    padding-left: 1.875rem;
+
+}
+
+#about .content-about h3 {
+    font-weight: 800;
+    color: var(--text-header-color);
+}
+
+#about .content-about span {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--text-color);
+    font-size: .875rem;
+    margin-bottom: 1.25rem;
+}
+
+#about .content-about p {
+    font-size: .9375rem;
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+#about .content-about p strong {
+    color: rgb(116, 129, 130);
+}
+
+#about .skills {
+    margin-top: 1.875rem;
+}
+
+.progress {
+    height: 25px;
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.15) inset;
+    background-color: #f7f7f7;
+    margin-bottom: 1.875rem;
+}
+
+.progress-bar {
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: rgb(28, 28, 28);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.web {
+    width: 95%;
+}
+
+.branding {
+    width: 80%;
+}
+
+.development {
+    width: 90%;
+}
+
+.progress-bar h6 {
+    font-size: .8125rem;
+}
+
+#about .button {
+    font-size: 13px;
+    border: 1px solid #1c1c1c;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#about .button .dark {
+    color: white;
+    padding: 10px 30px;
+    background-color: #1c1c1c;
+    transition: all 0.4s ease-in-out;
+}
+
+#about .button .dark:hover {
+    color: #1c1c1c;
+    background-color: #fff;
+}
+
+#about .button .white {
+    color: #1c1c1c;
+    padding: 10px 30px;
+    background-color: #fff;
+    transition: all 0.4s ease-in-out;
+}
+
+#about .button .white:hover {
+    color: #fff;
+    background-color: #1c1c1c;
+}
+
+/************************ End of About sections *******************/
+
+
+/************************ Start of Services sections *******************/
+
+#services {
+    background-color: #f7f7f7;
+}
+
+.heading h3 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: var(--text-header-color);
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+}
+
+.heading h3::after {
+    content: "";
+    position: absolute;
+    bottom: -13px;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    background-image: url(../images/dots.png);
+    background-repeat: repeat;
+    z-index: -1;
+}
+
+.box {
+    background-color: #fff;
+    padding: 2.8rem 1.25rem;
+    box-shadow: 0px 10px 30px -8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.box .circle {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #f4f4f4;
+    line-height: 2.2;
+    transition: all 0.5s;
+    font-size: 30px;
+}
+
+.box:hover .circle {
+    color: #eee;
+    background-color: #1c1c1c;
+}
+
+.box h3 {
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.box p {
+    color: var(--text-color);
+    font-size: 14px;
+}
+
+
+/************************ End of Services sections *******************/
+
+
+/************************ Start of Works sections *******************/
+#works .layer,
+#team .layer {
+    width: 97%;
+    height: 96%;
+    background-color: rgba(255, 255, 255, 0.95);
+    opacity: 0;
+    top: 5px;
+    left: 5px;
+    transition: all 0.5s;
+    transform: translateY(10px);
+}
+
+#works .inner:hover .layer,
+#team .card:hover .layer {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+#works .layer h6 {
+    font-size: .75rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    transform: translateY(-15px);
+    transition: all 0.5s;
+}
+
+#works .layer:hover h6 {
+    transform: translateY(0px);
+}
+
+#works .icons span i {
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.8;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    border: 1px solid #111;
+    background-color: #111;
+    text-align: center;
+}
+
+#works .icons span i:hover {
+    background-color: #fff;
+    color: #111;
+}
+
+
+.nav-pills .nav-link {
+    color: rgb(34, 34, 34);
+    font-family: var(--second-font-family);
+    font-weight: 700;
+    position: relative;
+    background-color: transparent;
+}
+
+.nav-pills .nav-link.active {
+    color: rgb(34, 34, 34);
+    background-color: transparent;
+}
+
+.nav-pills .nav-link::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 0;
+    height: 2px;
+    background-color: #111;
+    transition: all 0.5s;
+    transform: translateX(9px);
+}
+
+.nav-pills .nav-link.active::before {
+    width: 80%;
+}
+
+/************************ Start of Works sections *******************/
+
+
+/************************ Start of Clients sections *******************/
+
+#clients {
+    background-color: #f7f7f7;
+    margin: 100px 0 50px 0;
+    padding: 100px 0;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 0;
+    background-color: #d6d6d6;
+    margin: 5px 7px;
+}
+
+.carousel-indicators .active {
+    background-color: #869791;
+}
+
+.carousel-indicators [data-bs-target]:hover {
+    background-color: #869791;
+}
+
+.carousel-item img {
+    width: 100px;
+}
+
+.carousel-item p {
+    color: var(--text-color);
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.carousel-item h5 {
+    color: var(--text-header-color);
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.carousel-item h6 {
+    color: var(--text-color);
+    font-family: var(--second-font-family);
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.carousel-item>div {
+    max-width: 82%;
+    margin: auto;
+}
+
+/************************ End of Clients sections *******************/
+
+
+/************************ Start of Counter sections *******************/
+
+.icons-counter i {
+    font-size: 30px;
+}
+
+.counter-number h3 {
+    color: var(--text-header-color);
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 1.1;
+}
+
+.counter-number p {
+    font-size: 15px;
+    color: var(--text-color);
+    font-weight: 600;
+}
+
+/************************ End of Counter sections *******************/
+
+
+
+/************************ Start of Team sections *******************/
+
+#team {
+    padding: 100px 0;
+    background-color: #f7f7f7;
+}
+
+#team .card {
+    background-color: rgba(52, 52, 52, .8);
+    border: 0;
+}
+
+#team .content-card {
+    text-align: center;
+    padding: 20px 30px;
+    color: #fff;
+}
+
+#team .layer {
+    transform: rotateY(180deg) scale(0.5, 0.5);
+}
+
+#team .card:hover .layer {
+    transform: rotateY(0deg) scale(1, 1);
+}
+
+#team .inner img {
+    transition: all 0.4s 0s ease;
+}
+
+#team .inner:hover img {
+    transform: scale(1.2);
+}
+
+#team .inner .social-icons span {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #1c1c1c;
+    border-radius: 50%;
+    margin-inline: 5px;
+    background-color: #111;
+    text-align: center;
+}
+
+#team .inner .social-icons span a {
+    color: #fff;
+    line-height: 2.5;
+}
+
+#team .inner .social-icons span:hover {
+    background-color: #fff;
+}
+
+#team .inner .social-icons span:hover a {
+    color: #111;
+}
+
+#team .content-card h4 {
+    font-size: 1.5625rem;
+    font-weight: 500;
+    line-height: 1;
+}
+
+/************************ End of Team sections *******************/
+
+
+
+/************************ Start of Contact sections *******************/
+
+#contact {
+    padding: 100px 0;
+}
+
+#contact .card {
+    border: 0;
+    padding: 30px 0;
+    align-items: center;
+}
+
+#contact .card .circle {
+    width: 60px;
+    height: 60px;
+    background-color: #f4f4f4;
+    border-radius: 50%;
+    line-height: 4.5;
+    transition: all 0.5s;
+    margin-bottom: 20px;
+}
+
+#contact .card .circle i {
+    font-size: 25px;
+}
+
+#contact .card:hover .circle {
+    background-color: #111;
+    color: #fff;
+}
+
+#contact .content-contact h6 {
+    font-weight: 700;
+    color: var(--text-header-color);
+}
+
+#contact .content-contact p {
+    font-size: 15px;
+    color: var(--text-color);
+}
+
+.form-control {
+    background-color: #f4f4f4;
+    border: 0;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.form-control:focus {
+    color: var(--text-color);
+    background-color: #f4f4f4;
+    box-shadow: 0 0 0 0;
+}
+
+textarea {
+    width: 100%;
+    max-width: 100%;
+    height: 160px;
+    max-height: 160px;
+    resize: horizontal;
+}
+
+.button .btn {
+    font-size: 13px;
+    margin-top: 20px;
+    background-color: #1c1c1c;
+    color: white;
+    border: 1px solid #111;
+    transition: all 0.5s;
+}
+
+.button .btn:hover {
+    background-color: #fff;
+    color: #111;
+}
+
+/************************ End of Contact sections *******************/
+
+
+
+/************************ Start of Footer sections *******************/
+
+footer {
+    background-color: #1c1c1c;
+    padding: 30px;
+    text-align: center;
+    color: var(--text-color);
+    font-size: 13px;
+}
+
+/************************ End of Footer sections *******************/

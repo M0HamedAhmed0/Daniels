@@ -1,0 +1,34 @@
+@media screen and (max-width:992px) {
+    nav .container {
+        padding: 0.5rem 1.25rem;
+    }
+
+    nav .navbar-brand {
+        font-size: 1.125rem;
+    }
+
+    .navbar-nav {
+        background-color: white;
+    }
+
+    .navbar-nav .nav-link {
+        color: black !important;
+    }
+
+    .nav-item a {
+        font-size: .8125rem;
+    }
+
+    .nav-item a::before {
+        background-color: black;
+    }
+
+    .nav-item .active::before {
+        width: 9%;
+    }
+
+    .header-content h1 {
+        font-size: 1.875rem;
+    }
+
+}
